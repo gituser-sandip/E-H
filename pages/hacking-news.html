@@ -34,7 +34,7 @@
 	</nav>
 
 
-	<div class="container pt-5" style="background-color: rgba(0, 0, 0, 0.3);"><!--Section body coding----------------------------------------------------------->
+	<div class="container-fluid pt-5" style="background-color: rgba(0, 0, 0, 0.3);"><!--Section body coding----------------------------------------------------------->
 		<div class="jumbotron" id="h-devices" style="background: inherit;"> <!-- hacking-devices coadig -->
 			<h2 class="text-center text-white">Hacking-News</h2>
 		</div>
@@ -42,22 +42,66 @@
 
 
 
-	<script src="../js/wow.min.js"></script>
+<!--footer---------------------------------------->
+	<div class="jumbotron m-0 text-white pb-4" style="border-radius: 0; background-color: rgba(0, 0, 0, 0.7);" id="contact">
+		<h1 class="text-center pb-4">Contact Us</h1>
+			<div class="row">
+				<div class="col-md-4 p-4">
+					<form>
+						<div class="form-group">
+							<label for="username">Enter Your Name</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="number">Enter Phone No.</label>
+							<input type="number" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="email">Enter Your Email</label>
+							<input type="email" class="form-control">
+						</div>
+						<button type="submit" class="btn btn-primary">Send Us !</button>
+					</form>
+				</div>
+
+				<div class="col-md-4 p-4">
+					<h4>Address</h4>
+					<address>Haldibari-3,(Jhapa),Dhaduwa</address>
+
+					<h4>Mobile No.</h4>
+					<address>+977 9814941551</address><!--input your mobile number in address tag here-->
+
+					<h4>Email Id</h4>
+					<address>ethhackingtutorials@gmail.com</address><!--for your Email id-->
+
+				</div>
+
+				<div class="col-md-4">
+					<h4>Follow Us On</h4>
+						<a href="https://m.facebook.com/Our-Haldibari-104772601811596/"><i class="fab fa-facebook" id="f_icon"></i></a>
+						<i class="fab fa-instagram" id="i_icon"></i>
+						<i class="fab fa-twitter" id="t_icon"></i>
+				</div>
+			</div>
+			<hr style="border: 1px solid red;">
+			<p class="text-center text-danger mt-4">Ethical Hacking Blogs Pvt.Ltd </p>
+	</div>
+
+	<script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
-
         document.onkeydown = function(a){
         	if(a.ctrlKey && a.keyCode == 85){
         		return false;
         	}
     		else if(a.ctrlKey && a.shiftKey && a.keyCode == 73){
-    			alert("Sorry ! bro no inspect element.");
+    			alert("Sorry ! bro / sis no inspect element.");
     		return false;
 
     		}
     		else if (a.keyCode == 123) 
     		{
-    			alert("Sorry ! bro no inspect element.");
+    			alert("Sorry ! bro / sis no inspect element.");
     			return false;
     		}
         }
