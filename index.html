@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" oncontextmenu="window.alert('Sorry ! Right click is disabled due to the security reason.');return false;">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Ethical-hacking</title>
+	<title>Ethical-Hacking</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -13,115 +13,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap&family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<style>
-		html{
-			scroll-behavior: smooth;
-		}
-		body{
-			background-image: url(images/k.jpg) ;
-			background-repeat: no-repeat;
-			width: 100%;
-			background-size: cover;
-			background-attachment: fixed;
-			background-position: center;
-		}
-		nav{
-			background: #24292E;
-		}
-		#brand{
-			font-family: 'El Messiri', sans-serif;
-			font-weight: 600;
-			font-size: 25px;
-			color: white;
-		}
-		.nav-link{
-			font-family: 'Roboto', sans-serif;
-			font-weight: 300;
-			color: white;
-		}
-		#body-box{
-			width: 100%;
-			height: 92vh;
-			background-image: url(images/o.jpg);
-			background-size: cover;
-			background-position: center;
-			box-sizing: border-box;
-			margin-top: 75px;
-		}
-		.logo-box{
-			box-sizing: border-box;
-			width: 100%;
-			height: 92vh;
-			background-color: rgba(0, 0, 0, 0.3);
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			margin-top: 75px;
-		}
-		.logo-box:hover{
-			background-color: rgba(0, 0, 0, 0.1);
-		}
-		#body-box #logo-text{
-			width: 100%;
-			height: auto;
-			display: flex;
-			justify-content:center;
-			align-items: center;
-		}
-		#body-box h1{
-			float: left;
-			font-size: 60px;
-			font-family: 'El Messiri', sans-serif;
-		}
-
-		.animate__animated.animate__slideInLeft,.animate__animated.animate__slideInRight,.animate__animated.animate__slideInUp {
- 			--animate-duration: 2s;
-		}
-		#f_icon,#i_icon,#t_icon{
-			font-size: 50px;
-			padding-right: 10px;
-			padding-top: 10px;
-			color: white;
-		}
-		#f_icon:hover{
-			color: blue;
-		}
-		#t_icon:hover{
-			color: blue;
-		}
-		#i_icon:hover{
-			color: red;
-		}
-		a.nav-link:hover{
-			color: red;
-		}
-		a.nav-link.active{
-			background-color: red;
-			color: white;
-		}
-		@media(max-width: 769px){
-			body{
-				box-sizing: border-box;
-				height: 100vh;
-				background-image: url(images/k.jpg) ;
-				background-repeat: no-repeat;
-				width: 100%;
-				background-size: cover;
-				background-position: center;
-				background-attachment: fixed;
-			}
-			.logo-box{
-				height: 88vh;
-			}
-			#body-box{
-				height: 88vh;
-				
-			}
-			#body-box h1{
-				font-size: 45px;
-			}
-			
-	</style>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="100">
 	<nav class="navbar navbar-expand-md fixed-top p-3">
@@ -131,10 +23,10 @@
 			<div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav ml-auto">
                 	<li class="nav-items"><a href="#" class="nav-link active">Home</a></li>
-                	<li class="nav-items"><a href="#h-devices" class="nav-link ">Hacking-devices</a></li>
-                	<li class="nav-items"><a href="#h-news" class="nav-link ">Hacking-News</a></li>
-                	<li class="nav-items"><a href="#h-tutorial" class="nav-link ">Hacking-tutorial</a></li>
-                	<li class="nav-items"><a href="#tips-tricks" class="nav-link ">Tips & Tricks</a></li>
+                	<li class="nav-items"><a href="pages/hacking-courses.html" class="nav-link ">Hacking-Course</a></li>
+                	<li class="nav-items"><a href="pages/hacking-news.html" class="nav-link ">Hacking-News</a></li>
+                	<li class="nav-items"><a href="pages/hacking-tutorials.html" class="nav-link ">Hacking-tutorial</a></li>
+                	<li class="nav-items"><a href="pages/tips&tricks.html" class="nav-link ">Tips & Tricks</a></li>
                 	<li class="nav-items"><a href="#contact" class="nav-link ">Contact Us</a></li>
                 </ul>
 			</div>
@@ -150,23 +42,25 @@
 		</div>
 	</div>
 
-	<div class="container" style="background-color: rgba(0, 0, 0, 0.3);"><!--Section body coationg[----------------------------------------------------------->
-		<div class="jumbotron" id="h-devices" style="background: inherit;"> <!-- hacking-devices coadig -->
-			<h2 class="text-center text-white">Hacking-Devices</h2>
+	<div class="container" style="background-color: rgba(0, 0, 0, 0.3);"><!--Section body coding----------------------------------------------------------->
+		<div class="jumbotron text-center" id="h-devices" style="background: inherit;"> <!-- hacking-devices coadig -->
+			<button class="btn btn-danger"><a href="pages/hacking-courses.html"><h2 class="text-center text-white">Hacking-Course</h2></a></button>
 		</div>
 
-		<div class="jumbotron" id="h-news" style="background: inherit;"><!-- hacking-News coadig -->
-			<h2 class="text-center text-white">Hacking-News</h2>
+		<div class="jumbotron text-center" id="h-news" style="background: inherit;"><!-- hacking-News coadig -->
+			<button class="btn btn-danger"><a href="pages/hacking-news.html"><h2 class="text-center text-white">Hacking-News</h2></a></button>
 		</div>
 
-		<div class="jumbotron" id="h-tutorial" style="background: inherit;"><!-- hacking-Tutorial coadig -->
-			<h2 class="text-center text-white">Hacking-Tutorials</h2>
+		<div class="jumbotron text-center" id="h-tutorial" style="background: inherit;"><!-- hacking-Tutorial coadig -->
+			<button class="btn btn-danger"><a href="pages/hacking-tutorials.html"><h2 class="text-center text-white">Hacking-Tutorials</h2></a></button>
 		</div>
 
-		<div class="jumbotron mb-0" id="tips-tricks" style="background: inherit;"><!-- hacking-tips&tricks coadig -->
-			<h2 class="text-center text-white">Tips & Tricks</h2>
+		<div class="jumbotron text-center mb-0" id="tips-tricks" style="background: inherit;"><!-- hacking-tips&tricks coadig -->
+			<button class="bnt btn-danger"><a href="pages/tips&tricks.html"><h2 class="text-center text-white">Tips & Tricks</h2></a></button>
 		</div>
 	</div>
+
+	<!--footer---------------------------------------->
 	<div class="jumbotron m-0 text-white pb-4" style="border-radius: 0; background-color: rgba(0, 0, 0, 0.7);" id="contact">
 		<h1 class="text-center pb-4">Contact Us</h1>
 			<div class="row">
@@ -193,10 +87,10 @@
 					<address>Haldibari-3,(Jhapa),Dhaduwa</address>
 
 					<h4>Mobile No.</h4>
-					<address>+977 9814941551, 9824090024</address><!--input your mobile number in address tag here-->
+					<address>+977 9814941551</address><!--input your mobile number in address tag here-->
 
 					<h4>Email Id</h4>
-					<address>ourhaldibari@gmail.com</address><!--for your Email id-->
+					<address>ethhackingtutorials@gmail.com</address><!--for your Email id-->
 
 				</div>
 
@@ -214,6 +108,22 @@
 	<script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
+        document.onkeydown = function(a){
+        	if(a.ctrlKey && a.keyCode == 85){
+        		return false;
+        	}
+    		else if(a.ctrlKey && a.shiftKey && a.keyCode == 73){
+    			alert("Sorry ! bro / sis no inspect element.");
+    		return false;
+
+    		}
+    		else if (a.keyCode == 123) 
+    		{
+    			alert("Sorry ! bro / sis no inspect element.");
+    			return false;
+    		}
+        }
+    
     </script>
 </body>
 </html>
